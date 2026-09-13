@@ -1,0 +1,167 @@
+﻿export const seedPosts = [
+  {
+    title: "10 Baking Soda Hacks That Will Transform Your Home",
+    slug: "baking-soda-hacks",
+    excerpt:
+      "Baking soda is one of the most powerful and affordable cleaning agents you already own. Here are 10 proven ways to use it around your home.",
+    category: "Cleaning",
+    emoji: "🧼",
+    readTime: "3 min read",
+    content: `<h2>1. Deodorize Your Refrigerator</h2><p>Place an open box of baking soda on a shelf in your refrigerator. It absorbs food odors and keeps your fridge smelling fresh for up to <strong>3 months</strong>.</p><div class="tip-box">💡 <strong>Pro Tip:</strong> Sprinkle a little baking soda on a lemon wedge for an extra-fresh scent.</div><h2>2. Unclog Drains Naturally</h2><p>Pour <strong>½ cup baking soda</strong> down the drain, followed by <strong>½ cup white vinegar</strong>. Let it fizz for 15 minutes, then flush with boiling water.</p><h2>3. Freshen Carpets and Rugs</h2><p>Sprinkle baking soda over your carpet, let it sit for <strong>30 minutes</strong>, then vacuum thoroughly. Works amazingly on pet odors!</p><h2>4. Clean Greasy Pots and Pans</h2><p>Make a paste with baking soda and dish soap. Apply, let sit 5 minutes, then scrub away.</p><h2>5. Polish Silverware</h2><p>Paste of 3 parts baking soda + 1 part water. Apply, rub gently, rinse. Shines like new!</p><h2>6. Boost Laundry Freshness</h2><p>Add <strong>½ cup baking soda</strong> to your detergent. Brightens whites and removes odor.</p><h2>7. Remove Car Odors</h2><p>Sprinkle on car seats overnight, vacuum in the morning. Great for smoke and food smells.</p><h2>8. Clean Toys Safely</h2><p>4 tablespoons in 1 quart warm water. Non-toxic and safe for children's items.</p><h2>9. Fight Garden Pests</h2><p>Dust around plant bases to deter slugs and prevent powdery mildew on leaves.</p><h2>10. Degrease Hands</h2><p>Rub baking soda on your hands before soap to remove grease, oil, and paint residue.</p><div class="tip-box success">✅ Keep baking soda in every room — kitchen, bathroom, and laundry. The cheapest, most versatile cleaner!</div>`,
+    published: true,
+  },
+  {
+    title: "Keep Food Fresh Twice as Long With These Simple Tricks",
+    slug: "keep-food-fresh",
+    excerpt:
+      "Stop wasting money on spoiled food. These smart storage tricks will keep your fruits, vegetables, and leftovers fresh much longer.",
+    category: "Kitchen",
+    emoji: "🍋",
+    readTime: "4 min read",
+    content: `<h2>1. Store Herbs Like Flowers</h2><p>Place fresh herbs in a glass of water and cover loosely with a bag. Lasts <strong>2-3 weeks</strong> in the fridge!</p><h2>2. Wrap Cheese in Wax Paper</h2><p>Never use plastic — it suffocates cheese. Wax paper lets it breathe and stay fresh longer.</p><h2>3. Keep Berries Dry</h2><p>Rinse only before eating. Store dry in a paper-towel-lined container to absorb moisture.</p><h2>4. Avocado With Onion</h2><p>Place cut avocado face-down next to cut onion. Sulfur prevents browning for up to 2 days.</p><h2>5. Freeze Ripe Bananas</h2><p>Peel and freeze over-ripe bananas. Perfect for smoothies and banana bread later.</p><h2>6. Vinegar Berry Wash</h2><p>Soak berries in 1 part vinegar + 3 parts water for 1 minute, rinse and dry. Makes them last 2x longer!</p><div class="tip-box success">✅ The right storage method can double or triple shelf life and save you significant money each week.</div>`,
+    published: true,
+  },
+  {
+    title: "15 Ways to Cut Your Electric Bill by 30% This Month",
+    slug: "cut-electric-bill",
+    excerpt:
+      "Small habit changes and smart home tips that can dramatically reduce your monthly electricity costs without sacrificing comfort.",
+    category: "Energy",
+    emoji: "🔌",
+    readTime: "5 min read",
+    content: `<h2>1. Unplug Standby Devices</h2><p>TVs and chargers consume power even when off — up to <strong>10% of your bill</strong>. Use power strips to cut multiple devices easily.</p><h2>2. Switch to LED Bulbs</h2><p>LEDs use <strong>75% less electricity</strong> and last 25x longer than incandescent bulbs.</p><h2>3. Wash Clothes in Cold Water</h2><p>90% of washing machine energy goes to heating water. Cold water cleans just as well for most loads.</p><h2>4. Use Ceiling Fans Correctly</h2><p>Counter-clockwise in summer (pushes cool air down). Clockwise in winter (pushes warm air from ceiling down).</p><h2>5. Seal Drafts Around Windows</h2><p>Drafts cause up to 30% of heating/cooling costs. Weatherstripping tape costs $10 and saves much more.</p><h2>6. Air Dry Dishes</h2><p>Skip the heated dry cycle on your dishwasher — saves 15-50% of dishwasher energy.</p><div class="tip-box success">✅ Implementing all these tips together can cut your electric bill by 25-35%!</div>`,
+    published: true,
+  },
+  {
+    title: "The Vinegar Shower Head Soak That Actually Works",
+    slug: "vinegar-shower-head",
+    excerpt:
+      "Clogged shower head? A simple overnight vinegar soak dissolves mineral buildup and restores full water pressure.",
+    category: "Cleaning",
+    emoji: "🚿",
+    readTime: "3 min read",
+    content: `<h2>What You Need</h2><p>Just white vinegar and a plastic bag. No expensive products needed!</p><h2>Step 1 — Fill a Bag With Vinegar</h2><p>Pour enough white vinegar into a plastic bag to fully submerge the shower head nozzle.</p><h2>Step 2 — Secure the Bag</h2><p>Place the bag over the shower head so the nozzle is fully submerged. Secure with a rubber band.</p><h2>Step 3 — Wait Overnight</h2><p>Leave for at least <strong>8 hours</strong>. Vinegar acid dissolves calcium and lime deposits completely.</p><h2>Step 4 — Remove and Rinse</h2><p>Remove the bag and run the shower at full pressure for 30 seconds to flush out loosened deposits.</p><div class="tip-box">💡 Add 2 tablespoons of baking soda to the vinegar for extra fizzing power on tough buildup!</div><div class="tip-box success">✅ Repeat every 3-6 months to prevent buildup from returning.</div>`,
+    published: true,
+  },
+  {
+    title: "Peel Garlic in 10 Seconds Flat With This Trick",
+    slug: "peel-garlic-trick",
+    excerpt:
+      "No more sticky garlic fingers! Shake garlic cloves between two bowls and the skin falls right off every time.",
+    category: "Kitchen",
+    emoji: "🧄",
+    readTime: "2 min read",
+    content: `<h2>The Two-Bowl Method</h2><p>Fastest way to peel a whole bulb of garlic at once — no knife, no peeler, no mess!</p><h2>Step-by-Step</h2><p><strong>1.</strong> Break garlic bulb into individual cloves.<br/><strong>2.</strong> Place all cloves in a metal bowl.<br/><strong>3.</strong> Place a second bowl upside down on top to create a dome.<br/><strong>4.</strong> Hold both bowls and shake vigorously for <strong>10-15 seconds</strong>.<br/><strong>5.</strong> Open to find perfectly peeled cloves — skins completely separated!</p><div class="tip-box">💡 Metal bowls work best — they create more impact. Use a tight seal between the bowls!</div><h2>Microwave Method</h2><p>Microwave unpeeled cloves for 10-15 seconds. The skin loosens and slides off with almost no effort.</p><div class="tip-box success">✅ Peeling a whole bulb takes 15 seconds vs. 3-5 minutes by hand!</div>`,
+    published: true,
+  },
+  {
+    title: "Fix a Leaky Faucet in 15 Minutes Without a Plumber",
+    slug: "fix-leaky-faucet",
+    excerpt:
+      "A dripping faucet wastes thousands of liters of water a year. With a wrench and a new washer, you can fix it yourself easily.",
+    category: "DIY",
+    emoji: "🔧",
+    readTime: "4 min read",
+    content: `<h2>What You Need</h2><p>Adjustable wrench, screwdrivers, replacement washers ($2-3 pack), optional: plumber grease.</p><h2>Step 1 — Turn Off the Water Supply</h2><p>Find the shut-off valve under the sink. Turn clockwise until fully closed. Open faucet to release pressure.</p><h2>Step 2 — Remove the Handle</h2><p>Look for a screw on top of or behind the handle. Remove decorative cap if present, unscrew, pull handle off.</p><div class="tip-box">💡 Place a towel in the sink to catch any small parts that might drop!</div><h2>Step 3 — Replace the Washer</h2><p>At the bottom of the stem you'll find a rubber washer held by a brass screw. This worn washer causes dripping. Match the size at a hardware store and install the new one.</p><h2>Step 4 — Reassemble and Test</h2><p>Screw stem back in, tighten packing nut, replace handle, turn water back on. The drip should be gone!</p><div class="tip-box success">✅ A plumber charges $150-300 for this repair. A washer costs $0.50. You just saved hundreds!</div>`,
+    published: true,
+  },
+  {
+    title: "How to Declutter Your Home in One Weekend",
+    slug: "declutter-home",
+    excerpt:
+      "A room-by-room guide to decluttering fast. Follow this simple method and transform your home into a calm, organized space.",
+    category: "Organization",
+    emoji: "📦",
+    readTime: "3 min read",
+    content: `<h2>The 3-Box Method</h2><p>Get 3 boxes before you start: <strong>Keep, Donate, Trash</strong>. Every item must go into one. No maybe pile!</p><h2>Saturday Morning — Bedrooms</h2><p>Use the <strong>12-month rule:</strong> Not worn in 12 months? Donate it. Also clear nightstands and under the bed.</p><div class="tip-box">💡 Ask yourself: Does this add value to my life right now? If you hesitate — donate it.</div><h2>Saturday Afternoon — Kitchen</h2><p>Check expiry dates on pantry items. Donate duplicate gadgets you never use. Most kitchens have 3x more utensils than needed!</p><h2>Sunday Morning — Living Room and Bathroom</h2><p>Living room: keep only decor you genuinely love. Bathroom: throw away expired medicine and old makeup.</p><h2>The Golden Rule</h2><p>For every new item you bring home, <strong>remove one item</strong>. The one-in-one-out rule prevents clutter forever!</p><div class="tip-box success">✅ People feel significantly less stressed in decluttered spaces. Your home will feel twice as big!</div>`,
+    published: true,
+  },
+  {
+    title: "Organize Your Kitchen Pantry Like a Professional",
+    slug: "organize-kitchen-pantry",
+    excerpt:
+      "Labels, bins, and a simple zone system will make your pantry easy to navigate and keep it tidy for months.",
+    category: "Organization",
+    emoji: "🍽️",
+    readTime: "3 min read",
+    content: `<h2>Step 1 — Empty Everything Out</h2><p>Take everything out. Wipe down all shelves. Check expiry dates and throw away expired items. Fresh start!</p><h2>Step 2 — Create Zones</h2><p><strong>Breakfast Zone</strong> (cereals, oats), <strong>Baking Zone</strong> (flour, sugar), <strong>Snack Zone</strong>, <strong>Canned Goods Zone</strong>, <strong>Pasta and Grains Zone</strong>.</p><div class="tip-box">💡 Place daily-use items at eye level. Less-used items go high. Heavy items go on the lowest shelf.</div><h2>Step 3 — Use Clear Airtight Containers</h2><p>Transfer dry goods into clear containers. You can see what you have instantly and everything stays fresh longer.</p><h2>Step 4 — Label Everything</h2><p>Label all bins clearly. A label maker ($15) or sticky labels work perfectly.</p><h2>Step 5 — FIFO Rule</h2><p>First In First Out: always put new groceries <strong>behind</strong> older ones so nothing expires at the back.</p><div class="tip-box success">✅ An organized pantry saves money by preventing forgotten food from expiring!</div>`,
+    published: true,
+  },
+  {
+    title: "Keep Avocados Green for Days",
+    slug: "avocado-green",
+    excerpt:
+      "Leftover avocado going brown? These simple tricks keep it green and fresh for up to 3 days.",
+    category: "Kitchen",
+    emoji: "🥑",
+    readTime: "3 min read",
+    content: `<h2>Why Avocado Goes Brown</h2><p>Avocado browns through oxidation - the flesh reacts with oxygen. The goal is to create a barrier between flesh and air.</p><h2>Method 1 - Olive Oil (Best)</h2><p>Brush a thin layer of olive oil over the cut surface. Place in an airtight container. Creates an oxygen barrier for 2-3 days!</p><div class="tip-box">Leave the pit in the half you are storing - it naturally protects the flesh directly underneath it.</div><h2>Method 2 - Lemon Juice</h2><p>Squeeze lemon or lime juice over the cut surface. Citric acid slows oxidation. Works for 1-2 days.</p><h2>Method 3 - Onion Method</h2><p>Place avocado face-down in a container with chopped red onion. Sulfur compounds slow browning for 1-2 days.</p><h2>Method 4 - Water Submersion</h2><p>Place avocado half face-down in a shallow container with water to cover the surface. Acts as oxygen barrier for up to 2 days.</p><div class="tip-box success">Combine olive oil + lemon juice for the longest results - up to 3 days of freshness!</div>`,
+    published: true,
+  },
+  {
+    title: "Remove Tough Grout Stains Without Scrubbing",
+    slug: "remove-grout-stains",
+    excerpt:
+      "A paste of baking soda and hydrogen peroxide works better than any commercial grout cleaner.",
+    category: "Cleaning",
+    emoji: "🚰",
+    readTime: "4 min read",
+    content: `<h2>What You Need</h2><p>Baking soda + hydrogen peroxide (3% solution from pharmacy). Optionally a drop of dish soap.</p><h2>Make the Magic Paste</h2><p>Mix 3 tablespoons baking soda + 1 tablespoon hydrogen peroxide. Stir into a thick paste.</p><h2>Apply and Wait</h2><p>Apply paste along grout lines. Leave for 10-15 minutes. The hydrogen peroxide bleaches stains while baking soda lifts dirt.</p><h2>Scrub and Rinse</h2><p>Scrub with a toothbrush using light pressure - the paste does most of the work! Rinse with warm water.</p><div class="tip-box">For severe mold, leave paste 30 min covered with plastic wrap to keep it active longer.</div><h2>Prevent Future Staining</h2><p>Apply grout sealer after cleaning (costs $12). Creates a protective barrier that repels stains for 1-2 years.</p><div class="tip-box success">This natural paste outperforms commercial grout cleaners costing $5-25 with harsh chemicals!</div>`,
+    published: true,
+  },
+  {
+    title: "Clean Your Microwave in 5 Minutes With a Lemon",
+    slug: "microwave-lemon",
+    excerpt:
+      "Cut a lemon in half, microwave it in water for 5 minutes, and wipe away all the grime effortlessly.",
+    category: "Kitchen",
+    emoji: "☕",
+    readTime: "3 min read",
+    content: `<h2>What You Need</h2><p>One lemon, a microwave-safe bowl, and water. No harsh chemicals, no scrubbing!</p><h2>Step 1</h2><p>Cut a lemon in half. Squeeze juice into a bowl with 1 cup of water. Drop the lemon halves in too.</p><h2>Step 2</h2><p>Microwave on high for 3-5 minutes until water boils and steam fills the inside.</p><h2>Step 3</h2><p>Let it sit for 2 more minutes with door CLOSED. Steam continues loosening grime.</p><h2>Step 4</h2><p>Carefully remove the hot bowl. Wipe down the inside walls with a damp cloth.</p><h2>Step 5</h2><p>Everything wipes off with almost zero effort! The steam loosened it all.</p><div class="tip-box">Use the hot lemon water to wipe the turntable plate too - cuts through grease perfectly!</div><h2>Why It Works</h2><p>Steam softens stuck-on food. Lemon juice is a natural degreaser and leaves a fresh scent instead of chemical smell.</p><div class="tip-box success">No lemon? Use 2 tablespoons of white vinegar in water instead - works just as well!</div>`,
+    published: true,
+  },
+  {
+    title: "Patch a Wall Hole Like a Pro",
+    slug: "patch-wall-hole",
+    excerpt:
+      "Small holes from nails and screws are easy to fix with spackle. Get a smooth, invisible finish with these steps.",
+    category: "DIY",
+    emoji: "🔴",
+    readTime: "3 min read",
+    content: `<h2>What You Need</h2><p>Spackle compound ($7), putty knife or old credit card, fine sandpaper (120-220 grit), matching wall paint.</p><h2>For Small Nail Holes (Under 1/4 inch)</h2><p><strong>1.</strong> Push spackle into hole with your fingertip or credit card.<br/><strong>2.</strong> Smooth flush with wall surface.<br/><strong>3.</strong> Let dry completely (30-60 minutes).<br/><strong>4.</strong> Sand lightly until perfectly smooth.<br/><strong>5.</strong> Paint over to match the wall.</p><div class="tip-box">Apply spackle slightly overfilled - it shrinks as it dries. Sand flush after drying for a perfectly level surface.</div><h2>For Medium Holes (1/4 to 3 inches)</h2><p>Use a self-adhesive mesh patch ($5) placed over the hole. Apply spackle in thin layers over the mesh, letting each dry. Usually 2-3 coats. Sand and paint when fully dry.</p><h2>Matching Your Paint Color</h2><p>Take a paint chip to any hardware store - they can color-match it exactly using a computer. Small sample pots cost $5-8 - perfect for touch-ups!</p><div class="tip-box success">A properly patched and painted hole is completely invisible. No one will ever know it was there!</div>`,
+    published: true,
+  },
+  {
+    title: "Fix a Running Toilet and Save Water",
+    slug: "running-toilet",
+    excerpt:
+      "A running toilet wastes up to 200 gallons of water per day. Identify and fix the problem in under 30 minutes.",
+    category: "DIY",
+    emoji: "🔌",
+    readTime: "5 min read",
+    content: `<h2>Test If Your Toilet Is Running</h2><p>Add food coloring to the toilet tank. Wait 15 min without flushing. If color appears in the bowl - your toilet is running!</p><h2>Most Common Cause - The Flapper</h2><p>The rubber flapper valve at the bottom of the tank wears out and lets water leak constantly. This causes 90% of running toilets.</p><div class="tip-box">A replacement flapper costs $10. A plumber charges $150-250 for this exact same repair!</div><h2>How to Replace the Flapper</h2><p><strong>1.</strong> Turn off water supply valve behind toilet (turn clockwise).<br/><strong>2.</strong> Flush to empty the tank.<br/><strong>3.</strong> Unhook old flapper from pegs and disconnect chain from handle arm.<br/><strong>4.</strong> Take old flapper to hardware store to match the size.<br/><strong>5.</strong> Hook new flapper onto pegs, connect chain with 1/2 inch slack.<br/><strong>6.</strong> Turn water back on, let tank fill, flush to test.</p><h2>Other Possible Causes</h2><p><strong>Float too high:</strong> Bend the float arm down so water sits 1 inch below overflow tube.<br/><strong>Fill valve worn:</strong> Replace fill valve - costs $15 and takes 20 minutes.</p><div class="tip-box success">Fixing a running toilet saves 200 gallons per day - that is 6,000 gallons per month!</div>`,
+    published: true,
+  },
+  {
+    title: "Streak-Free Windows With Newspaper and Vinegar",
+    slug: "streak-free-windows",
+    excerpt:
+      "Skip expensive window cleaners. This old-school newspaper trick gives crystal-clear windows every time.",
+    category: "Cleaning",
+    emoji: "🧟",
+    readTime: "2 min read",
+    content: `<h2>Why Newspaper Beats Paper Towels</h2><p>Paper towels leave lint fibers on glass causing streaks. Newspaper fibers do not shed - perfect for streak-free glass.</p><h2>The Vinegar Solution</h2><p>Mix 1 part white vinegar + 1 part warm water in a spray bottle. Cuts through grease and fingerprints naturally.</p><h2>Step-by-Step Method</h2><p><strong>1.</strong> Spray solution generously on window.<br/><strong>2.</strong> Crumple newspaper into a ball.<br/><strong>3.</strong> Wipe in circular motions, then finish with vertical strokes.<br/><strong>4.</strong> Buff to a shine with a dry section of newspaper.</p><div class="tip-box">Clean windows on a cloudy day. Direct sunlight dries the solution too fast, causing streaks!</div><div class="tip-box success">This method costs almost nothing vs. commercial cleaners at $5-8 per bottle.</div>`,
+    published: true,
+  },
+  {
+    title: "10 Genius Under-Bed Storage Ideas",
+    slug: "under-bed-storage",
+    excerpt:
+      "The space under your bed is prime real estate. Use these ideas to reclaim it and reduce bedroom clutter.",
+    category: "Organization",
+    emoji: "📦",
+    readTime: "4 min read",
+    content: `<h2>Why Use Under-Bed Space?</h2><p>The average queen bed has 30-40 cubic feet of storage space underneath - most people waste this entirely!</p><h2>1. Wheeled Flat Storage Bins</h2><p>Classic solution. Use for seasonal clothes, bedding, or shoes. Wheels make it easy to slide in and out.</p><h2>2. Vacuum Storage Bags</h2><p>Compress bulky seasonal items like coats and blankets into thin flat bags. Protects from dust and moisture.</p><div class="tip-box">Label everything you store under the bed clearly so you do not have to pull everything out to find one item!</div><h2>3. Clear Shoe Boxes</h2><p>Flat clear shoe boxes stacked sideways let you see your shoes at a glance and keep them dust-free.</p><h2>4. Rolling Book Cart</h2><p>A flat rolling cart is perfect for books, magazines, or craft supplies stored neatly under the bed.</p><h2>5. Bed Risers</h2><p>Lift your bed 3-6 inches higher to create much more usable space. Available for $10-25 and support hundreds of pounds.</p><h2>6. Gift Wrapping Station</h2><p>Store wrapping paper rolls, scissors, tape, and ribbons in a flat bin under the bed. Perfect hidden station!</p><div class="tip-box success">Only store items used seasonally under the bed. Daily-use items should be accessible in drawers and shelves.</div>`,
+    published: true,
+  },
+];
