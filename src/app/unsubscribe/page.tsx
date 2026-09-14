@@ -32,18 +32,10 @@ export default async function UnsubscribePage({
           You have been unsubscribed from HomeHacks emails.
         </p>
       ) : (
-        <>
-          <p className="text-gray-600 mb-8">
-            Use the unsubscribe link in your HomeHacks email. If you need help,
-            contact us directly.
-          </p>
-          <a
-            href="/contact"
-            className="inline-block bg-green-700 text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-900 transition-colors"
-          >
-            Contact HomeHacks
-          </a>
-        </>
+        <p className="text-gray-600 mb-8">
+          This page is available through the private unsubscribe link in your
+          HomeHacks email.
+        </p>
       )}
       <p className="text-sm text-gray-500 mt-8">
         <Link href="/" className="text-green-700 hover:underline">

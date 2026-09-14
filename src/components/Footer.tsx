@@ -58,14 +58,6 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/unsubscribe"
-                  className="hover:text-green-400 transition-colors"
-                >
-                  Unsubscribe
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
