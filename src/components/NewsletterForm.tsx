@@ -7,7 +7,6 @@ export default function NewsletterForm() {
     "idle" | "sending" | "success" | "error"
   >("idle");
   const [message, setMessage] = useState("");
-  const [unsubscribeUrl, setUnsubscribeUrl] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,7 +28,6 @@ export default function NewsletterForm() {
       setEmail("");
       setStatus("success");
       setMessage(result.message);
-      setUnsubscribeUrl(result.unsubscribeUrl || "");
     } catch (error) {
       setStatus("error");
       setMessage(
@@ -46,17 +44,7 @@ export default function NewsletterForm() {
       className="flex gap-3 justify-center flex-wrap max-w-md mx-auto"
     >
       {status === "success" ? (
-        <div className="flex flex-col items-center gap-3">
-          <p className="text-white font-bold text-lg">✅ {message}</p>
-          {unsubscribeUrl && (
-            <a
-              href={unsubscribeUrl}
-              className="text-sm text-white underline hover:text-lime-200"
-            >
-              Unsubscribe
-            </a>
-          )}
-        </div>
+        <p className="text-white font-bold text-lg">✅ {message}</p>
       ) : (
         <>
           <input
