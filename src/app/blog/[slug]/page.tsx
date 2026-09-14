@@ -6,6 +6,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getPostImage } from "@/lib/post-images";
+import { getSiteUrl } from "@/lib/site-url";
 
 async function getPost(slug: string) {
   await connectDB();
@@ -32,7 +33,7 @@ export async function generateMetadata({
   const post = (await getPost(slug)) as any;
   if (!post) return {};
   const image = getPostImage(post.category, post.imageUrl);
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const siteUrl = getSiteUrl();
   const postUrl = `${siteUrl}/blog/${post.slug}`;
   const publishedTime = post.createdAt
     ? new Date(post.createdAt).toISOString()
@@ -110,7 +111,7 @@ export default async function BlogPostPage({
                 : undefined,
               mainEntityOfPage: {
                 "@type": "WebPage",
-                "@id": `${process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"}/blog/${post.slug}`,
+                "@id": `${getSiteUrl()}/blog/${post.slug}`,
               },
             }),
           }}

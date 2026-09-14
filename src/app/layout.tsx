@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Script from "next/script";
+import { getSiteUrl } from "@/lib/site-url";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -11,9 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
-  ),
+  metadataBase: new URL(getSiteUrl()),
   title: "HomeHacks – Smart Tips for Everyday Living",
   description:
     "Discover hundreds of clever home hacks, DIY tricks, cleaning tips, and life hacks to make your home life easier.",
