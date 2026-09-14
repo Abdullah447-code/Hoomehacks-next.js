@@ -10,7 +10,6 @@ export default async function UnsubscribePage({
 }: {
   searchParams: Promise<{ token?: string }>;
 }) {
-  const contactEmail = process.env.SMTP_USER || "hello@homehacks.example";
   const { token } = await searchParams;
   const email = token ? getEmailFromUnsubscribeToken(token) : null;
 
@@ -39,7 +38,7 @@ export default async function UnsubscribePage({
             contact us directly.
           </p>
           <a
-            href={`mailto:${contactEmail}?subject=Unsubscribe%20me`}
+            href="/contact"
             className="inline-block bg-green-700 text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-900 transition-colors"
           >
             Contact HomeHacks
