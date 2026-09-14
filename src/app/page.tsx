@@ -141,13 +141,25 @@ export default async function HomePage({
           </div>
           {posts.length === 0 ? (
             <div className="text-center py-20">
-              <p className="text-4xl mb-4">📝</p>
-              <p className="text-gray-500 text-lg mb-4">No posts yet.</p>
+              <p className="text-5xl mb-4">
+                {cat
+                  ? categories.find((category) => category.name === cat)
+                      ?.icon || "📝"
+                  : "🔎"}
+              </p>
+              <p className="text-gray-900 text-xl font-bold mb-3">
+                {cat ? `${cat} hacks are coming soon` : "No hacks found"}
+              </p>
+              <p className="text-gray-500 max-w-md mx-auto mb-6">
+                {cat
+                  ? "We are testing practical tips for this category and will publish them soon."
+                  : `We could not find any posts matching “${q}”. Try a different search.`}
+              </p>
               <Link
-                href="/admin"
-                className="bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-900 transition-colors"
+                href={cat ? "/#posts" : "/"}
+                className="text-green-700 font-semibold hover:underline"
               >
-                Go to Admin to add posts
+                {cat ? "Browse all hacks →" : "Back to Home →"}
               </Link>
             </div>
           ) : (
