@@ -46,7 +46,7 @@ export default function AboutPage() {
             {stats.map((s) => (
               <div
                 key={s.label}
-                className="bg-green-50 rounded-2xl p-6 text-center"
+                className="about-stat-card rounded-2xl p-6 text-center"
               >
                 <div className="text-4xl mb-2">{s.icon}</div>
                 <div className="text-3xl font-bold text-green-900">

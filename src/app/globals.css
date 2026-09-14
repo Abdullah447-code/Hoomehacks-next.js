@@ -73,6 +73,23 @@ html.dark .bg-green-50 {
   background-color: #193522;
 }
 
+.about-stat-card {
+  background: #f0fdf4;
+}
+
+html.dark .about-stat-card {
+  background: #193522 !important;
+  border: 1px solid #31543a;
+}
+
+html.dark .about-stat-card .text-green-900 {
+  color: #86efac !important;
+}
+
+html.dark .about-stat-card .text-gray-500 {
+  color: #b7c9bc !important;
+}
+
 html.dark .text-green-800 {
   color: #bbf7d0;
 }
