@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     siteName: "HomeHacks",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "HomeHacks - Smart Tips for Everyday Living",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
