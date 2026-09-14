@@ -178,7 +178,7 @@ export default async function BlogPostPage({
         <div className="flex gap-3 mt-10 flex-wrap">
           <span className="text-sm font-semibold text-gray-500">Share:</span>
           <a
-            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`http://localhost:3000/blog/${post.slug}`)}`}
+            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`${getSiteUrl()}/blog/${post.slug}`)}`}
             target="_blank"
             rel="noopener"
             className="text-sm px-4 py-2 border rounded-full hover:border-green-500 hover:text-green-700 transition-colors"
@@ -186,7 +186,7 @@ export default async function BlogPostPage({
             📘 Facebook
           </a>
           <a
-            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`http://localhost:3000/blog/${post.slug}`)}`}
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`${getSiteUrl()}/blog/${post.slug}`)}`}
             target="_blank"
             rel="noopener"
             className="text-sm px-4 py-2 border rounded-full hover:border-green-500 hover:text-green-700 transition-colors"

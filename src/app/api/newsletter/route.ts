@@ -3,6 +3,7 @@ import nodemailer from "nodemailer";
 import { connectDB } from "@/lib/mongodb";
 import { Subscriber } from "@/lib/models";
 import { createUnsubscribeToken } from "@/lib/newsletter";
+import { getSiteUrl } from "@/lib/site-url";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -19,14 +20,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const {
-      SMTP_HOST,
-      SMTP_PORT,
-      SMTP_USER,
-      SMTP_PASSWORD,
-      SMTP_FROM,
-      NEXT_PUBLIC_SITE_URL,
-    } = process.env;
+    const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SMTP_FROM } =
+      process.env;
     if (!SMTP_HOST || !SMTP_USER || !SMTP_PASSWORD) {
       return NextResponse.json(
         { error: "Email service is not configured yet." },
@@ -47,7 +42,7 @@ export async function POST(request: NextRequest) {
     );
 
     const unsubscribeToken = createUnsubscribeToken(normalizedEmail);
-    const siteUrl = NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+    const siteUrl = getSiteUrl();
     const unsubscribeUrl = `${siteUrl}/unsubscribe?token=${encodeURIComponent(unsubscribeToken)}`;
 
     const transporter = nodemailer.createTransport({
