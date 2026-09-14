@@ -22,6 +22,7 @@ export async function GET(req: NextRequest) {
     const posts = await Post.find(query).sort({ createdAt: -1 }).lean();
     return NextResponse.json(posts);
   } catch (error) {
+    console.log(error);
     return NextResponse.json(
       { error: "Failed to fetch posts" },
       { status: 500 },

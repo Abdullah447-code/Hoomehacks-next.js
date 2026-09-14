@@ -1,15 +1,35 @@
-﻿export default function AdSlot({ size = "banner" }: { size?: "banner" | "rectangle" | "sidebar" }) {
-  const sizes: Record<string, string> = {
-    banner: "h-24 max-w-3xl",
-    rectangle: "h-36 max-w-sm",
-    sidebar: "h-64 w-full",
+"use client";
+import { useEffect } from "react";
+
+interface AdSlotProps {
+  size?: "banner" | "rectangle" | "sidebar";
+  slot?: string;
+}
+
+export default function AdSlot({ size = "banner", slot }: AdSlotProps) {
+  useEffect(() => {
+    try {
+      ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+    } catch (e) {}
+  }, []);
+
+  const styles: Record<string, React.CSSProperties> = {
+    banner:    { display: "block", minHeight: 90 },
+    rectangle: { display: "block", minHeight: 250 },
+    sidebar:   { display: "block", minHeight: 300 },
   };
+
   return (
-    <div className="my-6 text-center">
-      <p className="text-xs text-gray-400 uppercase tracking-widest mb-2">Advertisement</p>
-      <div className={`mx-auto border-2 border-dashed border-gray-300 rounded-xl bg-gray-50 flex items-center justify-center text-gray-400 text-sm italic ${sizes[size]}`}>
-        📢 Google AdSense ({size === "banner" ? "728×90" : size === "rectangle" ? "336×280" : "300×600"}) — Replace with AdSense code
-      </div>
+    <div className="my-6 text-center overflow-hidden">
+      <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Advertisement</p>
+      <ins
+        className="adsbygoogle"
+        style={styles[size]}
+        data-ad-client="ca-pub-9359782305805940"
+        data-ad-slot={slot || ""}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </div>
   );
 }
