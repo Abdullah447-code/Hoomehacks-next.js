@@ -69,6 +69,10 @@ html.dark .bg-green-100 {
   background-color: #183d28;
 }
 
+html.dark .bg-green-50 {
+  background-color: #193522;
+}
+
 html.dark .text-green-800 {
   color: #bbf7d0;
 }
