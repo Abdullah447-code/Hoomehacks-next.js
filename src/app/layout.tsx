@@ -43,6 +43,12 @@ export default function RootLayout({
               'try { if (localStorage.getItem("theme") === "dark") document.documentElement.classList.add("dark"); } catch (error) {}',
           }}
         />
+        {/* Google AdSense — required in <head> for verification */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9359782305805940"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className={poppins.className}>
         <Header />
