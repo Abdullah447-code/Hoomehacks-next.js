@@ -71,6 +71,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       message: "Thanks for subscribing! Check your inbox.",
+      unsubscribeUrl,
     });
   } catch (error) {
     console.error("Newsletter email failed", error);
