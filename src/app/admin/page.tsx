@@ -25,14 +25,6 @@ export default function AdminLoginPage() {
     setLoading(false);
   };
 
-  const handleSeed = async () => {
-    setLoading(true);
-    const res = await fetch("/api/seed", { method: "POST" });
-    const data = await res.json();
-    alert(data.message || data.error);
-    setLoading(false);
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-lime-50 flex items-center justify-center px-4">
       <div className="bg-white rounded-3xl shadow-2xl p-10 w-full max-w-md">
@@ -61,18 +53,6 @@ export default function AdminLoginPage() {
             {loading ? "Checking..." : "Login to Admin"}
           </button>
         </form>
-        <div className="mt-6 pt-6 border-t border-gray-100 text-center">
-          <p className="text-xs text-gray-400 mb-3">
-            First time? Seed the database with sample posts:
-          </p>
-          <button
-            onClick={handleSeed}
-            disabled={loading}
-            className="text-sm text-green-700 underline hover:text-green-900"
-          >
-            🌱 Seed Sample Posts
-          </button>
-        </div>
       </div>
     </div>
   );
